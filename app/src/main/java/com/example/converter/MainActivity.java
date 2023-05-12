@@ -71,6 +71,10 @@ public class MainActivity extends AppCompatActivity {
 
     // Step #4 Methods
 
+    private String dummyMethod(){
+        return "boo!";
+    }
+
     private String milesToKm(String miles){
         double m_value = Double.parseDouble(miles);
         double km_value = m_value * 1.609;
